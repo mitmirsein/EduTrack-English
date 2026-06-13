@@ -1,59 +1,177 @@
-# [레벨테스트 리소스] 고등 영어 레벨 테스트 - 레벨 2 (고2~고3 수준)
+# 고등 영어 레벨 테스트 - 고2~3 수능 (High Level 2) (데모 샘플)
 
-- **평가 대상**: 고2, 고3 수능 대비생 및 최상위 고1생
-- **시험 시간**: 60분
-- **총 배점**: 100점 (35문항)
+> ⚠️ 본 문항은 기능 시연용 예시(데모)입니다. 실제 평가에는 강사님이 직접 제작한 문제로 교체해 사용하세요.
 
----
-
-## I. 어휘 (Vocabulary) - [15점, 각 3점]
-**[1-5] 문맥상 빈칸에 들어갈 단어로 가장 적절한 것을 고르세요.**
-
-1. Because the instructions were highly ________, the students struggled to complete the experiment without making significant errors.
-   ① explicit  ② ambiguous  ③ straightforward  ④ beneficial
-   *정답: ② (애매모호한)*
-
-2. Scientific progress is often not a linear advancement but a series of ________ adjustments to existing theories.
-   ① revolutionary  ② incremental  ③ temporary  ④ random
-   *정답: ② (점진적인)*
+- **평가 대상**: 샘플
+- **시험 시간**: 40분
+- **총 배점**: 35문항 (데모)
 
 ---
 
-## II. 어법 (Grammar) - [25점, 각 5점]
-**[6-10] 다음 밑줄 친 부분 중 어법상 어색한 것을 고르세요.**
+## 어휘력 (Vocab)
 
-6. The chemical composition of the soil determines **① <u>which</u>** plants can grow there, and **② <u>how</u>** well they will thrive, **③ <u>that</u>** is a crucial factor **④ <u>in</u>** agriculture.
-   *정답: ③ (콤마 뒤 계속적 용법의 관계대명사로서 that은 올 수 없으며, 앞 내용 전체를 가리키는 which로 수정되어야 합니다.)*
+1. 다음 단어의 뜻으로 알맞은 것은? **book**
+   ① 책 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
----
+2. 다음 단어의 뜻으로 알맞은 것은? **water**
+   ① 물 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
-## III. 구문독해 (Syntax) - [20점, 각 5점]
-**[11-14] 다음 문장을 주어/동사/수식어 성분으로 정밀 구획하여 해석을 서술하세요.**
+3. 다음 단어의 뜻으로 알맞은 것은? **happy**
+   ① 행복한 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
-11. **Only after we have lost what we take for granted do we begin to appreciate its true value.**
-    *해석: 우리가 당연하게 여기는 것을 잃고 나서야 비로소 우리는 그것의 진정한 가치를 감사히 여기기 시작한다. (Only 부사구 앞으로 인한 주어-동사 도치)*
+4. 다음 단어의 뜻으로 알맞은 것은? **run**
+   ① 달리다 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
-12. **Had it not been for the timely intervention of the government, the economic crisis would have been far worse.**
-    *해석: 정부의 적절한 개입이 없었더라면, 경제 위기는 훨씬 더 심각했을 것이다. (If 생략으로 인한 가정법 과거완료 도치)*
+5. 다음 단어의 뜻으로 알맞은 것은? **school**
+   ① 학교 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
----
+6. 다음 단어의 뜻으로 알맞은 것은? **friend**
+   ① 친구 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
-## IV. 수능독해 (Reading) - [25점, 각 5점]
-**[15-19] 다음 글의 빈칸에 들어갈 말로 가장 적절한 것을 고르세요.**
+7. 다음 단어의 뜻으로 알맞은 것은? **apple**
+   ① 사과 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
-> The rapid expansion of digital media has profoundly altered our relationship with information. In the past, the main challenge was obtaining scarce data, but today we face the opposite problem: an overwhelming abundance of content. The critical skill in the modern era is no longer the capacity to gather information, but rather the ability to filter and evaluate it. Those who cannot distinguish between reliable facts and biased opinions are likely to make poor decisions. In this sense, literacy in the 21st century must be redefined as the capacity for ________.
+8. 다음 단어의 뜻으로 알맞은 것은? **music**
+   ① 음악 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
-15. **빈칸에 들어갈 말로 가장 적절한 것은?**
-    ① rapid reading and memorization
-    ② critical thinking and selective consumption
-    ③ creative content creation
-    *정답: ② (정보를 여과하고 평가해야 한다는 흐름에 부합함)*
+9. 다음 단어의 뜻으로 알맞은 것은? **blue**
+   ① 파란색의 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
----
+10. 다음 단어의 뜻으로 알맞은 것은? **fast**
+   ① 빠른 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
-## V. 서술형영작 (Writing) - [15점, 각 7.5점]
-**[20-21] 주어진 우리말 뜻과 일치하도록 괄호 안의 단어들을 어순 배열하여 문장을 완성하세요. (어형 변화 필수)**
+## 어법 (Grammar)
 
-20. **그 회사는 위기 상황이 오고 나서야 비로소 자사의 안전 수칙을 수정했다. (not, until, the crisis, the company, revise, its safety guidelines)**
-    *조건: Not until 구문으로 문장을 시작하여 도치시킬 것, 시제는 과거형으로 적용할 것.*
-    *답안: Not until the crisis did the company revise its safety guidelines.*
+11. 빈칸에 알맞은 것을 고르시오.
+   They ___ happy.
+   ① is ② am ③ are ④ be
+   *정답: ③*
+
+12. 빈칸에 알맞은 것을 고르시오.
+   I ___ a book.
+   ① has ② have ③ having ④ had
+   *정답: ②*
+
+13. 빈칸에 알맞은 것을 고르시오.
+   He ___ to school every day.
+   ① go ② goes ③ going ④ gone
+   *정답: ②*
+
+14. 빈칸에 알맞은 것을 고르시오.
+   There ___ two apples.
+   ① is ② am ③ are ④ be
+   *정답: ③*
+
+15. 빈칸에 알맞은 것을 고르시오.
+   She ___ a teacher.
+   ① am ② is ③ are ④ be
+   *정답: ②*
+
+16. 빈칸에 알맞은 것을 고르시오.
+   They ___ happy.
+   ① is ② am ③ are ④ be
+   *정답: ③*
+
+17. 빈칸에 알맞은 것을 고르시오.
+   I ___ a book.
+   ① has ② have ③ having ④ had
+   *정답: ②*
+
+18. 빈칸에 알맞은 것을 고르시오.
+   He ___ to school every day.
+   ① go ② goes ③ going ④ gone
+   *정답: ②*
+
+19. 빈칸에 알맞은 것을 고르시오.
+   There ___ two apples.
+   ① is ② am ③ are ④ be
+   *정답: ③*
+
+20. 빈칸에 알맞은 것을 고르시오.
+   She ___ a teacher.
+   ① am ② is ③ are ④ be
+   *정답: ②*
+
+## 구문독해 (Syntax)
+
+21. 다음 문장의 동사로 알맞은 것은? The boy runs fast.
+   ① boy ② runs ③ fast
+   *정답: ②*
+
+22. 다음 문장의 동사로 알맞은 것은? She likes music.
+   ① She ② likes ③ music
+   *정답: ②*
+
+23. 다음 문장의 동사로 알맞은 것은? We study English.
+   ① We ② study ③ English
+   *정답: ②*
+
+24. 다음 문장의 동사로 알맞은 것은? The boy runs fast.
+   ① boy ② runs ③ fast
+   *정답: ②*
+
+25. 다음 문장의 동사로 알맞은 것은? She likes music.
+   ① She ② likes ③ music
+   *정답: ②*
+
+## 수능독해 (Reading)
+
+26. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+27. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+28. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+29. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+30. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+31. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+32. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+33. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+## 서술형영작 (Writing)
+
+34. 다음 우리말을 영어로 옮기시오.
+   그녀는 사과를 좋아한다.
+   *정답: She likes apples.*
+
+35. 다음 우리말을 영어로 옮기시오.
+   우리는 학교에 간다.
+   *정답: We go to school.*

@@ -1,54 +1,153 @@
-# [레벨테스트 리소스] 고등 영어 레벨 테스트 - 레벨 1 (고1 수준)
+# 고등 영어 레벨 테스트 - 고1 (High Level 1) (데모 샘플)
 
-- **평가 대상**: 예비 고1 및 고1 내원생
-- **시험 시간**: 50분
-- **총 배점**: 100점 (30문항)
+> ⚠️ 본 문항은 기능 시연용 예시(데모)입니다. 실제 평가에는 강사님이 직접 제작한 문제로 교체해 사용하세요.
 
----
-
-## I. 어휘 (Vocabulary) - [15점, 각 3점]
-**[1-5] 문맥상 밑줄 친 단어의 쓰임이 적절하지 않은 것을 고르세요.**
-
-1. The sudden change in weather made it **<u>possible</u>** for the hikers to reach the summit of the mountain on time. They had to turn back.
-   ① possible (x -> impossible)
-   *해설: 뒤 문장에서 돌아가야 했다고 하므로 산 정상에 오르는 것이 불가능(impossible)해졌어야 합니다.*
+- **평가 대상**: 샘플
+- **시험 시간**: 40분
+- **총 배점**: 30문항 (데모)
 
 ---
 
-## II. 어법 (Grammar) - [25점, 각 5점]
-**[6-10] 다음 밑줄 친 부분 중 어법상 어색한 것을 고르세요.**
+## 어휘력 (Vocab)
 
-6. The reason **① <u>why</u>** he was late was **② <u>that</u>** he missed the bus, which **③ <u>was</u>** a common excuse **④ <u>what</u>** he used.
-   *정답: ④ (excuse를 선행사로 가지며 used의 목적어 역할을 하는 목적격 관계대명사 that 또는 which가 와야 하며 선행사를 포함하는 관계대명사 what은 올 수 없습니다.)*
+1. 다음 단어의 뜻으로 알맞은 것은? **book**
+   ① 책 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
----
+2. 다음 단어의 뜻으로 알맞은 것은? **water**
+   ① 물 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
-## III. 구문독해 (Syntax) - [20점, 각 5점]
-**[11-14] 다음 문장을 주어/동사/수식어 성분으로 정밀 구획하여 해석을 서술하세요.**
+3. 다음 단어의 뜻으로 알맞은 것은? **happy**
+   ① 행복한 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
-11. **It is not until we lose our health that we realize the value of it.**
-    *해석: 우리가 건강을 잃고 나서야 비로소 우리는 그것의 가치를 깨닫는다. (Not until 강조구문)*
+4. 다음 단어의 뜻으로 알맞은 것은? **run**
+   ① 달리다 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
-12. **The program designed to help low-income families has achieved great success.**
-    *해석: 저소득층 가정을 돕기 위해 설계된 그 프로그램은 큰 성공을 거두었다. (과거분사구 designed의 수식 구조)*
+5. 다음 단어의 뜻으로 알맞은 것은? **school**
+   ① 학교 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
----
+6. 다음 단어의 뜻으로 알맞은 것은? **friend**
+   ① 친구 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
-## IV. 수능독해 (Reading) - [25점, 각 5점]
-**[15-19] 다음 글의 빈칸에 들어갈 말로 가장 적절한 것을 고르세요.**
+7. 다음 단어의 뜻으로 알맞은 것은? **apple**
+   ① 사과 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
-> We often hear that we should follow our passion. While this advice is well-meaning, it can sometimes lead people astray. Research shows that passion is not something we simply "find" sitting around. Instead, it is developed over time as we build skills and gain experience in a particular field. In other words, active engagement and mastery of a subject often precede the feeling of passion. Therefore, rather than waiting for a magical spark, it is wiser to focus on ________.
+8. 다음 단어의 뜻으로 알맞은 것은? **music**
+   ① 음악 ② 의자 ③ 바람 ④ 노래
+   *정답: ①*
 
-15. **빈칸에 들어갈 말로 가장 적절한 것은?**
-    ① following others' successful paths
-    ② developing your skills and competence
-    ③ finding a high-paying job immediately
-    *정답: ② (숙련도와 노력이 열정보다 먼저 온다는 맥락에 일치함)*
+## 어법 (Grammar)
 
----
+9. 빈칸에 알맞은 것을 고르시오.
+   There ___ two apples.
+   ① is ② am ③ are ④ be
+   *정답: ③*
 
-## V. 서술형영작 (Writing) - [15점, 각 5점]
-**[20-22] 주어진 우리말 뜻과 일치하도록 괄호 안의 단어들을 어순 배열하여 문장을 완성하세요. (필요시 어형 변화)**
+10. 빈칸에 알맞은 것을 고르시오.
+   She ___ a teacher.
+   ① am ② is ③ are ④ be
+   *정답: ②*
 
-20. **그는 시험공부를 더 열심히 하면 할수록, 더 좋은 점수를 받았다. (harder, he, studied, the, the, grades, better, got, he)**
-    *답안: The harder he studied, the better grades he got.*
+11. 빈칸에 알맞은 것을 고르시오.
+   They ___ happy.
+   ① is ② am ③ are ④ be
+   *정답: ③*
+
+12. 빈칸에 알맞은 것을 고르시오.
+   I ___ a book.
+   ① has ② have ③ having ④ had
+   *정답: ②*
+
+13. 빈칸에 알맞은 것을 고르시오.
+   He ___ to school every day.
+   ① go ② goes ③ going ④ gone
+   *정답: ②*
+
+14. 빈칸에 알맞은 것을 고르시오.
+   There ___ two apples.
+   ① is ② am ③ are ④ be
+   *정답: ③*
+
+15. 빈칸에 알맞은 것을 고르시오.
+   She ___ a teacher.
+   ① am ② is ③ are ④ be
+   *정답: ②*
+
+16. 빈칸에 알맞은 것을 고르시오.
+   They ___ happy.
+   ① is ② am ③ are ④ be
+   *정답: ③*
+
+## 구문독해 (Syntax)
+
+17. 다음 문장의 동사로 알맞은 것은? We study English.
+   ① We ② study ③ English
+   *정답: ②*
+
+18. 다음 문장의 동사로 알맞은 것은? The boy runs fast.
+   ① boy ② runs ③ fast
+   *정답: ②*
+
+19. 다음 문장의 동사로 알맞은 것은? She likes music.
+   ① She ② likes ③ music
+   *정답: ②*
+
+20. 다음 문장의 동사로 알맞은 것은? We study English.
+   ① We ② study ③ English
+   *정답: ②*
+
+21. 다음 문장의 동사로 알맞은 것은? The boy runs fast.
+   ① boy ② runs ③ fast
+   *정답: ②*
+
+## 수능독해 (Reading)
+
+22. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+23. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+24. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+25. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+26. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+27. 다음 글의 내용과 일치하는 것은?
+   > Tom has a small dog. The dog is white. Tom loves it.
+   ① Tom has a cat. ② The dog is black. ③ The dog is white. ④ Tom has no pet.
+   *정답: ③*
+
+## 서술형영작 (Writing)
+
+28. 다음 우리말을 영어로 옮기시오.
+   그녀는 사과를 좋아한다.
+   *정답: She likes apples.*
+
+29. 다음 우리말을 영어로 옮기시오.
+   우리는 학교에 간다.
+   *정답: We go to school.*
+
+30. 다음 우리말을 영어로 옮기시오.
+   나는 학생이다.
+   *정답: I am a student.*

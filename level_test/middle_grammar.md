@@ -1,4 +1,4 @@
-# 초등 문법 레벨 1 — 1차 평가 (데모 샘플)
+# 중등 영어 레벨 테스트 - 문법 별도 (Middle Grammar) (데모 샘플)
 
 > ⚠️ 본 문항은 기능 시연용 예시(데모)입니다. 실제 평가에는 강사님이 직접 제작한 문제로 교체해 사용하세요.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 명사와 관사 (Nouns & Articles)
+## 문법/어법 (Grammar)
 
 1. 빈칸에 알맞은 것을 고르시오.
    They ___ happy.
@@ -34,8 +34,6 @@
    She ___ a teacher.
    ① am ② is ③ are ④ be
    *정답: ②*
-
-## 대명사 (Pronouns)
 
 6. 빈칸에 알맞은 것을 고르시오.
    They ___ happy.
@@ -71,8 +69,6 @@
    I ___ a book.
    ① has ② have ③ having ④ had
    *정답: ②*
-
-## Be동사 및 일반동사 (Verbs - Be & General)
 
 13. 빈칸에 알맞은 것을 고르시오.
    He ___ to school every day.
@@ -114,56 +110,44 @@
    ① am ② is ③ are ④ be
    *정답: ②*
 
-## 형용사와 부사 (Modifiers - Adjs & Advs)
+## 서술형영작 (Writing)
 
-21. 빈칸에 알맞은 것을 고르시오.
-   They ___ happy.
-   ① is ② am ③ are ④ be
-   *정답: ③*
+21. 다음 우리말을 영어로 옮기시오.
+   나는 학생이다.
+   *정답: I am a student.*
 
-22. 빈칸에 알맞은 것을 고르시오.
-   I ___ a book.
-   ① has ② have ③ having ④ had
-   *정답: ②*
+22. 다음 우리말을 영어로 옮기시오.
+   그녀는 사과를 좋아한다.
+   *정답: She likes apples.*
 
-23. 빈칸에 알맞은 것을 고르시오.
-   He ___ to school every day.
-   ① go ② goes ③ going ④ gone
-   *정답: ②*
+23. 다음 우리말을 영어로 옮기시오.
+   우리는 학교에 간다.
+   *정답: We go to school.*
 
-24. 빈칸에 알맞은 것을 고르시오.
-   There ___ two apples.
-   ① is ② am ③ are ④ be
-   *정답: ③*
+24. 다음 우리말을 영어로 옮기시오.
+   나는 학생이다.
+   *정답: I am a student.*
 
-25. 빈칸에 알맞은 것을 고르시오.
-   She ___ a teacher.
-   ① am ② is ③ are ④ be
-   *정답: ②*
+25. 다음 우리말을 영어로 옮기시오.
+   그녀는 사과를 좋아한다.
+   *정답: She likes apples.*
 
-26. 빈칸에 알맞은 것을 고르시오.
-   They ___ happy.
-   ① is ② am ③ are ④ be
-   *정답: ③*
+26. 다음 우리말을 영어로 옮기시오.
+   우리는 학교에 간다.
+   *정답: We go to school.*
 
-27. 빈칸에 알맞은 것을 고르시오.
-   I ___ a book.
-   ① has ② have ③ having ④ had
-   *정답: ②*
+27. 다음 우리말을 영어로 옮기시오.
+   나는 학생이다.
+   *정답: I am a student.*
 
-28. 빈칸에 알맞은 것을 고르시오.
-   He ___ to school every day.
-   ① go ② goes ③ going ④ gone
-   *정답: ②*
+28. 다음 우리말을 영어로 옮기시오.
+   그녀는 사과를 좋아한다.
+   *정답: She likes apples.*
 
-## 전치사 (Prepositions)
+29. 다음 우리말을 영어로 옮기시오.
+   우리는 학교에 간다.
+   *정답: We go to school.*
 
-29. 빈칸에 알맞은 것을 고르시오.
-   There ___ two apples.
-   ① is ② am ③ are ④ be
-   *정답: ③*
-
-30. 빈칸에 알맞은 것을 고르시오.
-   She ___ a teacher.
-   ① am ② is ③ are ④ be
-   *정답: ②*
+30. 다음 우리말을 영어로 옮기시오.
+   나는 학생이다.
+   *정답: I am a student.*
