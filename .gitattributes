@@ -1,0 +1,13 @@
+# 줄바꿈 표준화: macOS와 Windows 11을 오가는 개발 환경에서 일관성 보장
+* text=auto eol=lf
+
+# Windows 배치 파일은 반드시 CRLF (cmd 호환성)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 바이너리 파일은 변환 금지
+*.pdf binary
+*.png binary
+*.jpg binary
+*.svg text eol=lf
+*.hwp binary
