@@ -7,6 +7,8 @@ import subprocess
 import tempfile
 from pathlib import Path
 
+BRAND = os.environ.get('EDUTRACK_BRAND', 'EduTrack English')
+
 def parse_report_markdown(md_content):
     lines = md_content.split('\n')
     title = ""
@@ -141,7 +143,7 @@ def build_report_latex(title, meta, table_rows, sections):
     # 헤더 및 푸터 스타일링
     latex.append(r"\pagestyle{fancy}")
     latex.append(r"\fancyhf{}")
-    latex.append(r"\fancyhead[L]{\small\color{gray} 수학중독학원 영어과 레벨테스트 분석 리포트}")
+    latex.append(r"\fancyhead[L]{\small\color{gray} " + BRAND + r" 레벨테스트 분석 리포트}")
     latex.append(r"\fancyhead[R]{\small\color{gray} 상담 및 학업 로드맵}")
     latex.append(r"\fancyfoot[C]{\small\thepage}")
     latex.append(r"\renewcommand{\headrulewidth}{0.4pt}")
@@ -155,7 +157,7 @@ def build_report_latex(title, meta, table_rows, sections):
     latex.append(r"    \centering")
     latex.append(f"    {{\\LARGE\\bfseries\\color{{violet!85!black}} {title}}} \\\\")
     latex.append(r"    \vskip 0.6em")
-    latex.append(r"    {\small\color{cyan!65!black} 수학중독학원 영어과}")
+    latex.append(r"    {\small\color{cyan!65!black} " + BRAND + r"}")
     latex.append(r"  \end{tcolorbox}")
     latex.append(r"\end{center}")
     latex.append(r"\vskip 1.0em")
@@ -313,7 +315,7 @@ def build_report_latex(title, meta, table_rows, sections):
             
     latex.append(r"\vspace{2.0em}")
     latex.append(r"\begin{flushright}")
-    latex.append(r"\large\itshape 수학중독학원 영어과 드림")
+    latex.append(r"\large\itshape " + BRAND + r" 드림")
     latex.append(r"\end{flushright}")
     
     latex.append(r"\end{document}")

@@ -6,6 +6,9 @@ import argparse
 import tempfile
 from pathlib import Path
 
+# 브랜드(학원명) — 환경변수 EDUTRACK_BRAND로 지정, 기본은 중립 제품명.
+BRAND = os.environ.get('EDUTRACK_BRAND', 'EduTrack English')
+
 def parse_markdown(md_content):
     lines = md_content.split('\n')
     title = ""
@@ -485,7 +488,7 @@ def build_html_document(title, meta, elements, mode='student', public_dir_path=N
         
     html.append('  <div class="exam-header">')
     html.append('    <div class="header-top">')
-    html.append('      <div class="brand-logo">수학중독학원 영어과</div>')
+    html.append(f'      <div class="brand-logo">{BRAND}</div>')
     
     if mode == 'student':
         html.append('      <table class="student-info-table">')
