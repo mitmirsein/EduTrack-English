@@ -91,29 +91,25 @@ def parse_report_markdown(md_content):
     return title, meta, table_rows, sections
 
 def escape_latex_text(text: str) -> str:
-    # 물결표 ~ 이스케이프
-    text = text.replace('~', r'\textasciitilde{}')
-
-    # 1. LaTeX 특수 문자 이스케이프
+    # 1. LaTeX 특수 문자 이스케이프.
+    # 원본 텍스트를 한 글자씩 훑어 한 번에 치환하므로, 치환 결과에 들어가는
+    # 백슬래시·중괄호가 다시 이스케이프되는 이중 처리가 발생하지 않는다.
+    # (백슬래시·물결표·캐럿·중괄호까지 모두 포함해야 LaTeX 주입/컴파일 실패를 막는다.)
     replacements = {
+        '\\': r'\textbackslash{}',
         '&': r'\&',
         '%': r'\%',
         '$': r'\$',
         '#': r'\#',
         '_': r'\_',
+        '{': r'\{',
+        '}': r'\}',
+        '~': r'\textasciitilde{}',
+        '^': r'\textasciicircum{}',
     }
-    
-    escaped = ""
-    i = 0
-    while i < len(text):
-        if text[i] in replacements:
-            escaped += replacements[text[i]]
-        elif text[i] == '\\':
-            escaped += r'\textbackslash{}'
-        else:
-            escaped += text[i]
-        i += 1
-        
+
+    escaped = "".join(replacements.get(ch, ch) for ch in text)
+
     # 2. 마크다운 볼드 및 이탤릭 LaTeX 변환
     escaped = re.sub(r'\*\*([^*]+)\*\*', r'\\textbf{\1}', escaped)
     escaped = re.sub(r'\*([^*]+)\*', r'\\textit{\1}', escaped)
@@ -341,6 +337,7 @@ def compile_report_to_pdf(input_md_path: Path, output_pdf_path: Path):
     
     xelatex_cmd = [
         "xelatex",
+        "-no-shell-escape",          # \write18 셸 실행 차단 (LaTeX 주입 방어)
         "-interaction=nonstopmode",
         f"-output-directory={temp_dir}",
         str(temp_tex)
@@ -381,16 +378,21 @@ def main():
     parser.add_argument("input", nargs="?", help="Markdown report file to compile.")
     
     args = parser.parse_args()
-    
-    resource_dir = Path("/Users/msn/Desktop/MS_Dev.nosync/projects/eng-student-manager/resource")
-    
+
+    # 리포트 마크다운 기본 위치: 프로젝트 내 data/ (학생 데이터 폴더, .gitignore 제외 대상).
+    # 스크립트 위치 기준 상대 경로라 머신·사용자명에 의존하지 않는다.
+    project_root = Path(__file__).resolve().parents[1]
+    resource_dir = project_root / "data"
+
     if not args.input:
-        input_path = resource_dir / "middle_intermediate_simulation.md"
-    else:
-        input_path = Path(args.input)
-        if not input_path.is_absolute():
-            input_path = resource_dir / input_path
-            
+        parser.print_help()
+        print("\n변환할 리포트 마크다운 파일 경로를 인자로 지정하세요. (예: data/report.md)")
+        sys.exit(1)
+
+    input_path = Path(args.input)
+    if not input_path.is_absolute():
+        input_path = resource_dir / input_path
+
     output_pdf = input_path.parent / f"{input_path.stem}.pdf"
     compile_report_to_pdf(input_path, output_pdf)
 
